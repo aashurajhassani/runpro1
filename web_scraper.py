@@ -13,4 +13,4 @@ count = 0
 for i in range(0, len(containers)):
     if brand == (containers[i].img['alt']).lower():
         count += 1
-print(count)
+print(count) 
