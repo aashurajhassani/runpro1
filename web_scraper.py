@@ -6,7 +6,7 @@ uClient =  uReq(my_url)
 page_html = uClient.read()
 page_soup = soup(page_html, "html.parser")
 #code for parsing html code
-containers = page_soup.findAll("div", {"class":"mw-body"})
+containers = page_soup.findAll("div", {"class":"mw-body-content"})
 wordlist = []
 
 '''creating two lists: one which containers
