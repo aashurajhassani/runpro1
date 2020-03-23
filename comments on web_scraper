@@ -1,0 +1,2 @@
+very basic web_scraper designed entirely from scratch. uses some basic libs in python to request html pages and parse html code.
+currently working on a specific website "new egg" to find out the no. of products of a particular brand on a given webpage.
